@@ -36,3 +36,62 @@
     transform: rotate(360deg);
   }
 }
+
+.deals-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.deal-section {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 15px;
+}
+
+.deal-card {
+  border: 1px solid grey;
+  background: aliceblue;
+  padding: 10px;
+  border-radius: 5px;
+
+  margin-bottom: 10px;
+}
+
+.deal-details-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  background: aliceblue;
+  flex-direction: column;
+}
+
+.deals-container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.media {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.media-image {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+.search {
+  margin: 0px 10px 10px 10px;
+  justify-content: center;
+}
+
+.search-input {
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  background: aliceblue;
+}
